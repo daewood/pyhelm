@@ -1,0 +1,44 @@
+CHANGES
+=======
+
+* Added Tiller.get\_release\_status and get\_release\_content
+* update bindings to helm 2.7.2
+* Drop pygit2
+* Updated README, fixed py3 issues
+* Fixed pyhelm to be py3 friendly :)
+* Removed unintended dependency on grpc. Fixes #7
+* Add PyYAML fixes #8
+* Added missing logging import/assignment
+* Support source.type of 'directory'
+* Download tar and untar it
+* Downgrade to 2.3.1
+* 0.24.2 for pygit2
+* Add missing requirements
+* Install hapi for now
+* Support values
+* Fix some docstrings
+* moved hapi
+* Bunch of stuff... really
+* Add gitignore
+* Fix readme; for realz
+* Fix readme
+* Add a setup script
+* Convert README to rst
+* Remove unnecessary requirements
+* Update README
+* [feature] implement-api-service
+* [bug] fixing-chart-diff-check
+* [feature] creating-api-service
+* [feature] adding-pre-post-actions-to-yaml (#44)
+* [feature] adding-delete-cleanup-functions (#45)
+* [feature] check-chart-diff-before-upgrade (#43)
+* [docs] getting-started-guide
+* [script] installing-libgit2-deps (#22)
+* adding dockerfile
+* [bug] fix-pep8-linting-issues
+* Updated example file
+* [bug] removing-unused-function (#8)
+* [Feature] [Docs] owners-list-and-issue-standards
+* [travis-ci] adding-pipeline-for-testing
+* Initial Armada Commit (#1)
+* Initial commit
